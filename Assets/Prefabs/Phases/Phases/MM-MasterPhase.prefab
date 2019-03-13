@@ -1,0 +1,207 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1424512783134888}
+  m_IsPrefabParent: 1
+--- !u!1 &1424512783134888
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4363560469146960}
+  - component: {fileID: 114948506448359160}
+  m_Layer: 0
+  m_Name: MM-MasterPhase
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4363560469146960
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1424512783134888}
+  m_LocalRotation: {x: -0, y: -0, z: -1.4551915e-11, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114948506448359160
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1424512783134888}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 251e2e51ad038934293f4473fbfc9a6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  difficulty: 0
+  randomSpawnPool:
+  - {fileID: 1299124844466398, guid: a48eda56f3806584ca4feadd2ecc05b1, type: 2}
+  - {fileID: 1856063734405530, guid: 53f1160ba4a12864780166c7438933c8, type: 2}
+  - {fileID: 1856063734405530, guid: 7c73cad77f2a3f544a57fbd55498332b, type: 2}
+  - {fileID: 1856063734405530, guid: 866ca4ef7e293b7479c9f007317152fc, type: 2}
+  - {fileID: 1445036817993324, guid: a023ba116d8ec1845bd07517668bb22b, type: 2}
+  - {fileID: 1445036817993324, guid: 2ffee84c67b067d4fb15f3b51c20f76d, type: 2}
+  - {fileID: 1445036817993324, guid: ce908c4c41f5ba54a87c92e6260e2630, type: 2}
+  - {fileID: 1327317273411624, guid: c97b3588c6c89164fb1e851a685d2fb2, type: 2}
+  - {fileID: 1327317273411624, guid: e28d030e561282840ba9cdd6419d145f, type: 2}
+  - {fileID: 1327317273411624, guid: 5343a4adf7569b24194e0bb42a406bfd, type: 2}
+  - {fileID: 1788687253620054, guid: 4783db0b95ba5b245b105f611859c64f, type: 2}
+  - {fileID: 1788687253620054, guid: f40e724e47e4cb74eb919f9fefab8dab, type: 2}
+  - {fileID: 1788687253620054, guid: 539f1bd32ebf06642abe21fa2d0bd7d3, type: 2}
+  - {fileID: 1327317273411624, guid: 33c804388b615ef46a6eb94bf50b5f89, type: 2}
+  - {fileID: 1327317273411624, guid: f3a122df7e63a074fa650ba60dde678f, type: 2}
+  - {fileID: 1327317273411624, guid: 3c8c23ea9f7bd3740947853417e486d0, type: 2}
+  - {fileID: 1327317273411624, guid: c2ce6629cd0dd984ba2becdac7918dc6, type: 2}
+  - {fileID: 1327317273411624, guid: 4bcb5a20631bb56459e7efb38b5520a0, type: 2}
+  - {fileID: 1327317273411624, guid: a2f93270e25427644a79e381c810d49a, type: 2}
+  - {fileID: 1956034273071912, guid: 944e9c5e6d3fbd04da34972df07a8022, type: 2}
+  - {fileID: 1956034273071912, guid: fbe3b6fb72da90b4ab4ddc303e7b9918, type: 2}
+  - {fileID: 1956034273071912, guid: 5f9a762b4465c6645a4ffde8187f51b5, type: 2}
+  - {fileID: 1856063734405530, guid: e38e63615f972bb44b37662e6a4134d7, type: 2}
+  - {fileID: 1856063734405530, guid: 92a46e6db3d088546960897ebe6c9d61, type: 2}
+  - {fileID: 1856063734405530, guid: 9a2ae0e5140fc8641b98ccd6f7a7d3a6, type: 2}
+  - {fileID: 1454662839919822, guid: 7095e7eaa00677d4096b545c7d49a2b3, type: 2}
+  - {fileID: 1454662839919822, guid: d5484c663f42a1543bd9285aba0152d8, type: 2}
+  - {fileID: 1454662839919822, guid: 9353dde10a07e2142a7f86b412f32861, type: 2}
+  - {fileID: 1956034273071912, guid: 3c9742b5664d7914b9d2c3a1d31272a8, type: 2}
+  - {fileID: 1956034273071912, guid: ee1a037cef866b24ba8092d2241f590a, type: 2}
+  - {fileID: 1956034273071912, guid: cfcf155e1e1fb614f8ef027dd1109b12, type: 2}
+  - {fileID: 1856063734405530, guid: 3bbb41d52feb6f44fb98ca0c5b198ed5, type: 2}
+  - {fileID: 1856063734405530, guid: 179e160d8fe810e4aa1f29b0f6ddcb3d, type: 2}
+  - {fileID: 1856063734405530, guid: b77f6df8b0c01df44bcd7a192cbb9a7c, type: 2}
+  - {fileID: 1856063734405530, guid: 8b173c2f7f6bafa4482ce48bb2c270db, type: 2}
+  - {fileID: 1856063734405530, guid: d0bcb87f0319b834faada521ad373e56, type: 2}
+  - {fileID: 1856063734405530, guid: 4e1d21749f3a1ec48823f20e20a55254, type: 2}
+  - {fileID: 1734494079055512, guid: b85b7a678f211474da5066bdb48993d4, type: 2}
+  - {fileID: 1734494079055512, guid: 8cba355e3ad189549b4a278745ffa4ec, type: 2}
+  - {fileID: 1734494079055512, guid: 6d339edbe53256347aa37259d8f06a35, type: 2}
+  - {fileID: 1856063734405530, guid: c85ad2597b445534280d1fda289d4c2b, type: 2}
+  - {fileID: 1856063734405530, guid: b325695b5c30fdf4c8c82d44babe9fad, type: 2}
+  - {fileID: 1952796178428838, guid: 38bdf091c5738ba469c189813f7786b5, type: 2}
+  - {fileID: 1952796178428838, guid: abd8369265a78f3439811d1d9cc8a24f, type: 2}
+  - {fileID: 1788687253620054, guid: 3c1338726895e8b4fb8cdd900e5a9753, type: 2}
+  - {fileID: 1788687253620054, guid: b2f94f76d5fdb764197f82a1bc7214fe, type: 2}
+  - {fileID: 1788687253620054, guid: 47b5b3581e4620d4385dd195d2ea452a, type: 2}
+  - {fileID: 1856063734405530, guid: 78eedc4e1fc72ae43a8a3ab1a7d49e70, type: 2}
+  - {fileID: 1856063734405530, guid: e9afa5157f3d32b40bbc2eaef5ead9ed, type: 2}
+  - {fileID: 1856063734405530, guid: 5ca2471bfcae776479e1c517b89be7d7, type: 2}
+  - {fileID: 1327317273411624, guid: fb126c606d555054295b6db68e4d03d9, type: 2}
+  - {fileID: 1327317273411624, guid: bed890ae8afa61f4fa2cc45dd0f5e03e, type: 2}
+  - {fileID: 1327317273411624, guid: ec8163ac50ece8947997f79ee1553f5c, type: 2}
+  - {fileID: 1734494079055512, guid: 8d7096a0e840a734cbe61926b8a95005, type: 2}
+  - {fileID: 1856063734405530, guid: 78eedc4e1fc72ae43a8a3ab1a7d49e70, type: 2}
+  - {fileID: 1856063734405530, guid: e9afa5157f3d32b40bbc2eaef5ead9ed, type: 2}
+  - {fileID: 1856063734405530, guid: 5ca2471bfcae776479e1c517b89be7d7, type: 2}
+  - {fileID: 1445036817993324, guid: a1ee20147e34daa4dae9f52a421a472b, type: 2}
+  - {fileID: 1445036817993324, guid: 8226d8ff44377024296814cbdfa9d24d, type: 2}
+  - {fileID: 1445036817993324, guid: 020e4d19d9ad01f4f8cd79bcc3495933, type: 2}
+  - {fileID: 1445036817993324, guid: 0549768c57e8e87488c7c5e82325d40a, type: 2}
+  - {fileID: 1445036817993324, guid: 85823a8656950904687fde2ba0fd17ab, type: 2}
+  - {fileID: 1445036817993324, guid: 2e11669c97a7e2a42bd0317e05d1847e, type: 2}
+  - {fileID: 1445036817993324, guid: b8f334520b2a0404cadaaa4e250ab174, type: 2}
+  - {fileID: 1445036817993324, guid: 72e2b1c7a7727bf4694a080db2a722bf, type: 2}
+  - {fileID: 1445036817993324, guid: ceb8099794a628943ae80a645cf541c5, type: 2}
+  sequenceSpawnPool:
+  - {fileID: 1956034273071912, guid: 3c9742b5664d7914b9d2c3a1d31272a8, type: 2}
+  - {fileID: 1856063734405530, guid: 53f1160ba4a12864780166c7438933c8, type: 2}
+  - {fileID: 1856063734405530, guid: e38e63615f972bb44b37662e6a4134d7, type: 2}
+  - {fileID: 1445036817993324, guid: a023ba116d8ec1845bd07517668bb22b, type: 2}
+  idleBeatsBeforSpawnig: 0
+  activeBeats: 8
+  idleBeatsAfterSpawning: 0
+  useCustomFlowSettings: 0
+  normalBoxHitFlowGain: 6
+  riskyBoxHitFlowGain: 8.29
+  doubleBoxHitFlowGain: 0
+  flowLossAtBoxDespawn: 10
+  flowLossDuringOverflow: 0
+  destroyWhenPhaseCompleted: 0
+  waitUntillMyChildsAreCompleted: 0
+  waitUntillSequeneSpawnPoolCompletedOnce: 0
+  hasFollowers: 0
+  suspendCompletion: 1
+  difficultySections:
+  - name: Easy
+    activeAtBeat: 0
+    spawnDifficultyProbabilitys:
+      easyPhase: 1
+      normalPhase: 0
+      hardPhase: 0
+  - name: 5 Easy, 5 Normal
+    activeAtBeat: 256
+    spawnDifficultyProbabilitys:
+      easyPhase: 5
+      normalPhase: 5
+      hardPhase: 0
+  - name: 3 Easy, 6 Normal, 1 Hard
+    activeAtBeat: 320
+    spawnDifficultyProbabilitys:
+      easyPhase: 3
+      normalPhase: 6
+      hardPhase: 1
+  - name: 1 Easy, 6 Normal, 3 Hard
+    activeAtBeat: 448
+    spawnDifficultyProbabilitys:
+      easyPhase: 1
+      normalPhase: 6
+      hardPhase: 3
+  - name: 1 Easy, 3.5 Normal, 5.5 Hard
+    activeAtBeat: 512
+    spawnDifficultyProbabilitys:
+      easyPhase: 1
+      normalPhase: 3.5
+      hardPhase: 5.5
+  - name: 0.5 Easy, 2 Normal, 7.5 Hard
+    activeAtBeat: 768
+    spawnDifficultyProbabilitys:
+      easyPhase: 0.5
+      normalPhase: 2
+      hardPhase: 7.5
+  - name: Easy (Breather)
+    activeAtBeat: 896
+    spawnDifficultyProbabilitys:
+      easyPhase: 9
+      normalPhase: 1
+      hardPhase: 0
+  - name: Hard
+    activeAtBeat: 1024
+    spawnDifficultyProbabilitys:
+      easyPhase: 1
+      normalPhase: 0
+      hardPhase: 9
+  - name: Harder
+    activeAtBeat: 1300
+    spawnDifficultyProbabilitys:
+      easyPhase: 0
+      normalPhase: 1
+      hardPhase: 9
+  - name: Hardest
+    activeAtBeat: 1536
+    spawnDifficultyProbabilitys:
+      easyPhase: 0
+      normalPhase: 0.01
+      hardPhase: 9.99
+  useOnlyTestingPhases: 0
+  testigPhases:
+  - {fileID: 1445036817993324, guid: a023ba116d8ec1845bd07517668bb22b, type: 2}
+  - {fileID: 1445036817993324, guid: 2ffee84c67b067d4fb15f3b51c20f76d, type: 2}
+  - {fileID: 1445036817993324, guid: ce908c4c41f5ba54a87c92e6260e2630, type: 2}
+  activeDifficultySection: 
